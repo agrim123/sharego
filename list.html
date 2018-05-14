@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Uploads</title>
+</head>
+<body>
+{{range .}}
+	<div><a href="/{{.Path}}" target="_blank">{{.Name}}</a></div>
+{{else}}
+<div>No</div>
+{{end}}
+</body>
+</html>
