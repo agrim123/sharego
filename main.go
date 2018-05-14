@@ -61,5 +61,9 @@ func main() {
 
 	})
 
+	http.HandleFunc("/download", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println(r.URL.Query())
+	})
+
 	log.Fatal(http.ListenAndServe(":8081", nil))
 }
