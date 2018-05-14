@@ -1,15 +1,9 @@
-## Sample Web App
+## File sharing app
 
-Sample Web App written in **Go**.
+I needed something to transfer my files from my phone to laptop (no using the data cable ofc).
 
 Run
 
 ```bash
 $ go run server.go
-```
-
-or
-
-```bash
-$ go build . && ./server
 ```
